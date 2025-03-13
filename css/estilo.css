@@ -1,0 +1,75 @@
+body{
+    
+}
+
+ul,a {
+    text-decoration: none;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 0 319px;
+    padding: 0;
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+.menu ul li {
+    margin-right: 15px;
+}
+
+.menu a {
+    border:solid 1.5px;
+    width: 106px;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.logo {
+    margin: 0 0 0 323px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 232px 323px 0 321px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin:64px 351px 0 325px;
+}
+
+.section3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 64px 304px 55px 320px;
+}
+
+.sobre{
+    text-align: center;
+    margin: 103px 289px 121px 318px;
+}
+
+.politicas{
+    display: flex;
+    justify-content: space-between;
+    margin: 64px 282px 19px 319px;
+}
+
+.politicas .pdp{
+    margin: 0px -600px 0 0;
+}
