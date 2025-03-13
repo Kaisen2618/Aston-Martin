@@ -1,5 +1,5 @@
 body{
-    
+    background-color: black;
 }
 
 ul,a {
@@ -9,24 +9,28 @@ ul,a {
 #header {
     display: flex;
     justify-content: space-between;
+    background-color: black;
+    color: white;
+
 }
 
 .menu {
     display: flex;
     justify-content: center;
-    padding: 10px;
+    height: 80px;
     margin: 0 319px;
-    padding: 0;
 }
 
 .menu ul {
     display: flex;
     list-style-type: none;
     margin: 0;
+    
 }
 
 .menu ul li {
     margin-right: 15px;
+    align-content: center;
 }
 
 .menu a {
@@ -35,28 +39,100 @@ ul,a {
     height: 20px;
     border-radius: 10px;
     text-align: center;
+    margin-top: 29px;
+
+    align-content: center;
+    color: white;
 }
 
 .logo {
     margin: 0 0 0 323px;
+    align-content: center;
 }
 
 .section1 {
     display: flex;
     justify-content: space-between;
     margin: 232px 323px 0 321px;
+    color: white;
+}
+
+.section1 h1{
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 46.2px;
+    letter-spacing: 1px;
+}
+
+.section1 span {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 46.2px;
+    letter-spacing: 1px;
+}
+
+.section1 p {
+    margin-bottom: 24px;
+}
+
+.section1 a{
+    border:solid 1px;
+    width: 176px;
+    height: 100px;
+    padding: 16px 33px 16px 33px;
+    border-radius: 10px;
+    color: white;
 }
 
 .section2 {
     display: flex;
     flex-direction: row-reverse;
     margin:64px 351px 0 325px;
+    color: white;
+}
+
+.section2 p {
+    margin-bottom: 33px;
+}
+
+.section2 a {
+    border:solid 1px;
+    width: 176px;
+    height: 100px;
+    padding: 16px 33px 16px 33px;
+    border-radius: 10px;
+    color: white;
 }
 
 .section3 {
     display: flex;
     justify-content: space-between;
     margin: 64px 304px 55px 320px;
+    color: white;
+}
+
+.section3 p {
+    margin-bottom: 24px;
+}
+
+.section3 a {
+    border:solid 1px;
+    width: 218px;
+    height: 46px;
+    padding:13px 60px 13px 60px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+#footer {
+    background-color: white;
+    margin-top:48px;
+}
+
+#footer img{
+    margin-top: 48px;
 }
 
 .sobre{
@@ -70,6 +146,6 @@ ul,a {
     margin: 64px 282px 19px 319px;
 }
 
-.politicas .pdp{
+.politicas .p-de-privacy{
     margin: 0px -600px 0 0;
 }
