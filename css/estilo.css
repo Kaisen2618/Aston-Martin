@@ -57,11 +57,14 @@ ul,a {
     color: white;
 }
 
-.section1 h1{
-    font-weight: 400;
+.section1 h2{
+    font-weight: 700;
     font-size: 60px;
     line-height: 46.2px;
     letter-spacing: 1px;
+    height: 57px;
+    margin:0 0 0 24px;
+    font-style: large;
 }
 
 .section1 span {
@@ -70,10 +73,11 @@ ul,a {
     font-size: 30px;
     line-height: 46.2px;
     letter-spacing: 1px;
+    margin:0;
 }
 
 .section1 p {
-    margin-bottom: 24px;
+    margin:24px 0 48px 25px ;
 }
 
 .section1 a{
@@ -83,6 +87,7 @@ ul,a {
     padding: 16px 33px 16px 33px;
     border-radius: 10px;
     color: white;
+    margin-left: 25px;
 }
 
 .section2 {
