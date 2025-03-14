@@ -1,41 +1,32 @@
 body{
     background-color: black;
 }
-
 ul,a {
     text-decoration: none;
 }
-
 #header {
     display: flex;
     justify-content: space-between;
-    background-color: black;
     color: white;
-<<<<<<< HEAD
-=======
-
->>>>>>> 6e1c1760d027d0d32d656001ceb6fe019ad867cd
 }
-
 .menu {
     display: flex;
     justify-content: center;
     height: 80px;
-    margin: 0 319px;
+    margin-right:-320px;
 }
-
 .menu ul {
     display: flex;
     list-style-type: none;
-    margin: 0;
-    
+    margin: 0;  
 }
-
 .menu ul li {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
     margin-right: 15px;
     align-content: center;
 }
-
 .menu a {
     border:solid 1.5px;
     width: 106px;
@@ -43,45 +34,45 @@ ul,a {
     border-radius: 10px;
     text-align: center;
     margin-top: 29px;
-<<<<<<< HEAD
-=======
-
->>>>>>> 6e1c1760d027d0d32d656001ceb6fe019ad867cd
     align-content: center;
     color: white;
 }
-
 .logo {
     margin: 0 0 0 323px;
     align-content: center;
-<<<<<<< HEAD
 }
-
 #main .break-main {
-    width: 1920px;
+    width: 100%;
     border: solid 2px;
     color: #404040;
-=======
->>>>>>> 6e1c1760d027d0d32d656001ceb6fe019ad867cd
 }
-
 .section1 {
     display: flex;
     justify-content: space-between;
-    margin: 232px 323px 0 321px;
+    width: 1276px;
+    height: 366px;
+    margin: 232px 323px 0 300px;
     color: white;
 }
-
+.section1 img {
+    width: 850px;
+    height: 366px;
+    margin-left: 61px;
+}
+.section1 .descriçao{
+    width: 365px;
+    height: 230px;
+    border-radius: 10px;
+    border: 1px;
+}
 .section1 h2{
     font-weight: 700;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 46.2px;
     letter-spacing: 1px;
-    height: 57px;
     margin:0 0 0 24px;
     font-style: large;
 }
-
 .section1 span {
     font-weight: 400;
     font-style: italic;
@@ -90,11 +81,15 @@ ul,a {
     letter-spacing: 1px;
     margin:0;
 }
-
 .section1 p {
+    width: 350px;
+    height: 73px;
+    font-weight: 300px;
+    font-size: 16px;
+    line-height: 24.2px;
+    letter-spacing: 1px;
     margin:24px 0 48px 25px ;
 }
-
 .section1 a{
     border:solid 1px;
     width: 176px;
@@ -104,97 +99,303 @@ ul,a {
     color: white;
     margin-left: 25px;
 }
-
 .section2 {
     display: flex;
     flex-direction: row-reverse;
     margin:64px 351px 0 325px;
     color: white;
 }
-
-.section2 p {
-    margin-bottom: 33px;
+.section2 .descriçao {
+    width: 636px;
+    height: 182px;
+    margin: 50px 28px 186px 46px;
 }
-
+.section2 p {
+   width: 636px;
+   height:97px;
+   font-weight: 300px;
+   font-size: 20px;
+   line-height: 24.2px;
+   letter-spacing: 1px;
+}
 .section2 a {
     border:solid 1px;
-    width: 176px;
-    height: 100px;
+    width: 172px;
+    height: 52px;
     padding: 16px 33px 16px 33px;
     border-radius: 10px;
     color: white;
 }
-
 .section3 {
     display: flex;
     justify-content: space-between;
-    margin: 64px 304px 55px 320px;
+    width: 1296px;
+    height: 340px;
+    border-radius: 12px ;
+    margin: 64px 304px 55px 260px;
     color: white;
-<<<<<<< HEAD
-    background-image: linear-gradient(to right,#91282F,#330002)
-=======
->>>>>>> 6e1c1760d027d0d32d656001ceb6fe019ad867cd
+    background-image: linear-gradient(to right,#91282F,#330002);
+}
+.section3 .descriçao{
+    width: 426px;
+    height:207px;
+    border-radius: 10px;
+    border: 1px;
+    margin: 30px 0px 67px 70px;
 }
 
+.section3 h2 {
+    width: 426px;
+    height: 86px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42.8px;
+    letter-spacing: 0%; 
+}
 .section3 p {
-    margin-bottom: 24px;
+    width: 396px;
+    height: 55px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27.3px;
+    letter-spacing: 0%;
+    margin: 0 30px 12px 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 .section3 a {
     border:solid 1px;
     width: 218px;
     height: 46px;
-    padding:13px 60px 13px 60px;
+    padding:7px 60px 13px 60px;
     border-radius: 10px;
     color: white;
+    background-color: black;
     text-align: center;
 }
 
+.section3 img {
+    width: 533px;
+    height: 280px;
+    margin: 44px 113px 16px 162px;
+}
 #footer {
     background-color: white;
-<<<<<<< HEAD
     width: 100%;
-=======
-    padding-bottom: 1px;
->>>>>>> 6e1c1760d027d0d32d656001ceb6fe019ad867cd
 }
 
 #footer img{
     margin-top: 48px;
-<<<<<<< HEAD
 }
-
 #footer .break-footer1 {
     width: 1310px;
     border: solid 2px;
     color: #A4A4A4;
-    margin: 30px 0 14px 0;
+    margin: 30px 0 14px 100px;
 }
-
 #footer .break-footer2 {
     width: 1310px;
     border: solid 2px;
     color: #A4A4A4;
-    margin-top: 50px;
-=======
->>>>>>> 6e1c1760d027d0d32d656001ceb6fe019ad867cd
+    margin: 50px 0 0 100px;
 }
-
 .sobre{
     text-align: center;
-    margin: 103px 289px 121px 318px;
+    margin: 50px 150px 60px 150px;
 }
-
+.emissao-CMB{
+    width: 1310px;
+    height: 51px; 
+    margin: 0 105px;
+}
+.emissao-CMB p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: justify;
+}
 .politicas{
     display: flex;
     justify-content: space-between;
     margin: 64px 282px 19px 319px;
 }
+.termos1{
+    margin-left:-75px;
+}
+.termos2{
+    margin-right: -540px;
+}
+.termos3{
+    margin-right: 40px;
+}
 
-<<<<<<< HEAD
-.p-de-privacy{
-=======
-.politicas .p-de-privacy{
->>>>>>> 6e1c1760d027d0d32d656001ceb6fe019ad867cd
-    margin: 0px -600px 0 0;
+@media (max-width: 720px) {
+    .body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    #header, .section1, .section2, .section3, #footer {
+        max-width: 100%; 
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+    #header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .menu {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    .menu ul {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+    }
+    .menu ul li {
+        margin: 0 10px;
+    }
+    .menu a {
+        text-align: center;
+    }
+    .logo {
+        margin: 20px 0;
+    } 
+    .section1 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+        margin: 300px 0 0 0;
+    }
+    .section1 img {
+        width: 100%;
+        height: auto;
+        margin:0 0 20px  0;
+    }
+    .section2 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+    }
+    .section2 .descriçao {
+        width: 100%;
+        text-align: center;
+        margin: 0 ;
+    }
+
+    .section2 p {
+        width: auto;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .section2 a {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .section3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height:auto;
+        margin: 20px auto;
+    }
+
+    .section3 .descriçao {
+        width: 45%;
+        text-align: left;
+        margin: 0 20px;
+    }
+
+    .section3 img {
+        width: 100%;
+        height: auto;
+        margin-left:10px;
+    }
+
+    .section3 h2 {
+        font-size: 20px;
+        line-height: 100%;
+        height: 50px;
+        margin: 20px 0 0 0;
+    }
+
+    .section3 p {
+        font-size: 14px;
+        line-height:100%;
+        margin: 10px 0 20px 0;
+       
+    }
+
+    .section3 a {
+        margin-top: 30px;
+        text-align: center;
+    }
+    #footer {
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #footer img {
+        margin: 30px 0 10px 0;
+        width: auto;
+        height: auto;
+    }
+
+    #footer .break-footer1{
+        width: 90%;
+        margin: 20px auto;
+        border: solid 2px;
+        color: #A4A4A4;
+    }
+    #footer .break-footer2 {
+        width: 90%;
+        margin: 30px 0 0 28px;
+        border: solid 2px;
+        color: #A4A4A4;
+    }
+
+    .sobre {
+        text-align: center;
+        margin: 20px auto;
+        width: 90%;
+    }
+
+    .emissao-CMB {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .emissao-CMB p {
+        font-size: 14px;
+        text-align: justify;
+        margin: 10px 0;
+    }
+    .politicas {
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px auto;
+        width: 100%;
+    }
+
+    .termos1, .termos2, .termos3 {
+        text-align: center;
+        margin: 0 10px;
+        width: auto;
+    }        
 }
