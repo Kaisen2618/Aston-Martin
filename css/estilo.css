@@ -11,7 +11,10 @@ ul,a {
     justify-content: space-between;
     background-color: black;
     color: white;
+<<<<<<< HEAD
+=======
 
+>>>>>>> 6e1c1760d027d0d32d656001ceb6fe019ad867cd
 }
 
 .menu {
@@ -40,7 +43,10 @@ ul,a {
     border-radius: 10px;
     text-align: center;
     margin-top: 29px;
+<<<<<<< HEAD
+=======
 
+>>>>>>> 6e1c1760d027d0d32d656001ceb6fe019ad867cd
     align-content: center;
     color: white;
 }
@@ -48,6 +54,15 @@ ul,a {
 .logo {
     margin: 0 0 0 323px;
     align-content: center;
+<<<<<<< HEAD
+}
+
+#main .break-main {
+    width: 1920px;
+    border: solid 2px;
+    color: #404040;
+=======
+>>>>>>> 6e1c1760d027d0d32d656001ceb6fe019ad867cd
 }
 
 .section1 {
@@ -115,6 +130,10 @@ ul,a {
     justify-content: space-between;
     margin: 64px 304px 55px 320px;
     color: white;
+<<<<<<< HEAD
+    background-image: linear-gradient(to right,#91282F,#330002)
+=======
+>>>>>>> 6e1c1760d027d0d32d656001ceb6fe019ad867cd
 }
 
 .section3 p {
@@ -133,11 +152,32 @@ ul,a {
 
 #footer {
     background-color: white;
+<<<<<<< HEAD
+    width: 100%;
+=======
     padding-bottom: 1px;
+>>>>>>> 6e1c1760d027d0d32d656001ceb6fe019ad867cd
 }
 
 #footer img{
     margin-top: 48px;
+<<<<<<< HEAD
+}
+
+#footer .break-footer1 {
+    width: 1310px;
+    border: solid 2px;
+    color: #A4A4A4;
+    margin: 30px 0 14px 0;
+}
+
+#footer .break-footer2 {
+    width: 1310px;
+    border: solid 2px;
+    color: #A4A4A4;
+    margin-top: 50px;
+=======
+>>>>>>> 6e1c1760d027d0d32d656001ceb6fe019ad867cd
 }
 
 .sobre{
@@ -151,6 +191,10 @@ ul,a {
     margin: 64px 282px 19px 319px;
 }
 
+<<<<<<< HEAD
+.p-de-privacy{
+=======
 .politicas .p-de-privacy{
+>>>>>>> 6e1c1760d027d0d32d656001ceb6fe019ad867cd
     margin: 0px -600px 0 0;
 }
