@@ -164,8 +164,6 @@ ul,a {
 }
 .section3 a {
     border:solid 1px;
-    width: 218px;
-    height: 46px;
     padding:7px 60px 13px 60px;
     border-radius: 10px;
     color: white;
@@ -229,17 +227,6 @@ ul,a {
 }
 
 @media (max-width: 720px) {
-    .body{
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-    }
-
-    #header, .section1, .section2, .section3, #footer {
-        max-width: 100%; 
-        box-sizing: border-box;
-        margin: 0 auto;
-    }
     #header {
         flex-direction: column;
         align-items: center;
@@ -254,8 +241,7 @@ ul,a {
     .menu ul {
         display: flex;
         list-style-type: none;
-        padding: 0;
-        margin: 0;
+        margin: 0 0 0 40px;
         justify-content: center;
     }
     .menu ul li {
@@ -272,12 +258,15 @@ ul,a {
         flex-direction: column-reverse;
         align-items: center;
         width: 100%;
-        margin: 300px 0 0 0;
+        margin: 100px 0 0 0;
     }
     .section1 img {
         width: 100%;
         height: auto;
-        margin:0 0 20px  0;
+        margin:0 0 20px 20px;
+    }
+    .section1 .descriçao{
+        margin:0 0 0 90px;
     }
     .section2 {
         display: flex;
@@ -286,6 +275,13 @@ ul,a {
         justify-content: center;
         margin: 20px;
     }
+
+    .section2 img {
+        width: 100%;
+        height: auto;
+        margin:0 0 0 30px;
+    }
+
     .section2 .descriçao {
         width: 100%;
         text-align: center;
@@ -294,13 +290,15 @@ ul,a {
 
     .section2 p {
         width: auto;
-        text-align: center;
-        margin: 10px 0;
+        font-size: 20px;
+        text-align: justify;
+        margin: 10px 0 0 20px;
     }
 
     .section2 a {
-        margin-top: 20px;
+        margin-top: 300px;
         text-align: center;
+        
     }
     .section3 {
         display: flex;
@@ -309,7 +307,7 @@ ul,a {
         align-items: center;
         width: 100%;
         height:auto;
-        margin: 20px auto;
+        margin: 60px auto;
     }
 
     .section3 .descriçao {
