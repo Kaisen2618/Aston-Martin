@@ -392,6 +392,8 @@ ul,a {
     }
 
     .termos1, .termos2, .termos3 {
+        display:flex;
+        flex-direction:column;
         text-align: center;
         margin: 0 10px;
         width: auto;
