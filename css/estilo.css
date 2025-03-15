@@ -369,7 +369,7 @@ ul,a {
      }
      #footer .break-footer2 {
          width: 90%;
-         margin: 90px 0 0 15px;
+         margin: 120px 0 0 15px;
          border: solid 2px;
          color: #A4A4A4;
      }
@@ -395,7 +395,7 @@ ul,a {
          flex-direction: column; 
          justify-content: space-between;
          align-items: center;
-         margin: 70px auto;
+         margin: 0;
          width: 100%;
      }
  
