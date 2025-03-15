@@ -227,26 +227,193 @@ ul,a {
 }
 
 @media (max-width: 720px) {
+     @media (max-width: 720px) {
+     .body{
+         margin: 0;
+         padding: 0;
+         overflow-x: hidden;
+     }
+ 
+     #header, .section1, .section2, .section3, #footer {
+         max-width: 100%; 
+         box-sizing: border-box;
+         margin: 0 auto;
+     }
      #header {
-        flex-direction: column; /* Organiza logo e menu em coluna */
-        align-items: center; /* Alinha logo e menu ao centro */
-        max-width: 720px; /* Limita a largura do header */
-        margin: 0 auto; /* Centraliza o conteúdo */
-    }
-
-    .logo {
-        width: 100px; /* Ajuste do tamanho da logo */
-        height: auto;
-        margin-bottom: 10px; /* Adiciona espaçamento entre a logo e o menu */
-    }
-
-    .menu {
-        justify-content: center;
-        width: 100%; /* Garante que o menu ocupe a largura disponível */
-    }
-
-    .menu ul li {
-        font-size: 14px; /* Ajuste do tamanho da fonte no menu para telas menores */
-        margin-right: 10px; /* Menor espaçamento entre os itens do menu */
-    }
+         flex-direction: column;
+         align-items: center;
+         text-align: center;
+         margin-bottom: 20px;
+     }
+     .menu {
+         display: flex;
+         justify-content: center;
+         margin: 0;
+     }
+     .menu ul {
+         display: flex;
+         list-style-type: none;
+         padding: 0;
+         margin: 0;
+         margin: 0 0 0 40px;
+         justify-content: center;
+     }
+     .menu ul li {
+         margin: 0 10px;
+     }
+     .menu a {
+         text-align: center;
+     }
+     .logo {
+         margin: 20px 0;
+     } 
+     .section1 {
+         display: flex;
+         flex-direction: column-reverse;
+         align-items: center;
+         width: 100%;
+         margin: 300px 0 0 0;
+         margin: 100px 0 0 0;
+     }
+     .section1 img {
+         width: 100%;
+         height: auto;
+         margin:0 0 20px  0;
+         margin:0 0 20px 20px;
+     }
+     .section1 .descriçao{
+         margin:0 0 0 90px;
+     }
+     .section2 {
+         display: flex;
+         flex-direction: column-reverse;
+         align-items: center;
+         justify-content: center;
+         margin: 20px;
+     }
+ 
+     .section2 img {
+         width: 100%;
+         height: auto;
+         margin:0 0 0 30px;
+     }
+ 
+     .section2 .descriçao {
+         width: 100%;
+         text-align: center;
+         margin: 0 ;
+     }
+ 
+     .section2 p {
+         width: auto;
+         text-align: center;
+         margin: 10px 0;
+         font-size: 20px;
+         text-align: justify;
+         margin: 10px 0 0 20px;
+     }
+ 
+     .section2 a {
+         margin-top: 20px;
+         margin-top: 300px;
+         text-align: center;
+         
+     }
+     .section3 {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         align-items: center;
+         width: 100%;
+         height:auto;
+         margin: 20px auto;
+         margin: 60px auto;
+     }
+ 
+     .section3 .descriçao {
+         width: 45%;
+         text-align: left;
+         margin: 0 20px;
+     }
+ 
+     .section3 img {
+         width: 100%;
+         height: auto;
+         margin-left:10px;
+     }
+ 
+     .section3 h2 {
+         font-size: 20px;
+         line-height: 100%;
+         height: 50px;
+         margin: 20px 0 0 0;
+     }
+ 
+     .section3 p {
+         font-size: 14px;
+         line-height:100%;
+         margin: 10px 0 20px 0;
+ 
+     }
+ 
+     .section3 a {
+         margin-top: 30px;
+         text-align: center;
+     }
+     #footer {
+         background-color: white;
+         width: 100%;
+         text-align: center;
+         margin: 0 auto;
+     }
+ 
+     #footer img {
+         margin: 30px 0 10px 0;
+         width: auto;
+         height: auto;
+     }
+ 
+     #footer .break-footer1{
+         width: 90%;
+         margin: 20px auto;
+         border: solid 2px;
+         color: #A4A4A4;
+     }
+     #footer .break-footer2 {
+         width: 90%;
+         margin: 30px 0 0 28px;
+         border: solid 2px;
+         color: #A4A4A4;
+     }
+ 
+     .sobre {
+         text-align: center;
+         margin: 20px auto;
+         width: 90%;
+     }
+ 
+     .emissao-CMB {
+         width: 90%;
+         margin: 20px auto;
+     }
+ 
+     .emissao-CMB p {
+         font-size: 14px;
+         text-align: justify;
+         margin: 10px 0;
+     }
+     .politicas {
+         display: flex;
+         flex-direction: column; 
+         justify-content: space-between;
+         align-items: center;
+         margin: 20px auto;
+         width: 100%;
+     }
+ 
+     .termos1, .termos2, .termos3 {
+         text-align: center;
+         margin: 0 10px;
+         width: auto;
+     } 
 }
