@@ -227,4 +227,26 @@ ul,a {
 }
 
 @media (max-width: 720px) {
+     #header {
+        flex-direction: column; /* Organiza logo e menu em coluna */
+        align-items: center; /* Alinha logo e menu ao centro */
+        max-width: 720px; /* Limita a largura do header */
+        margin: 0 auto; /* Centraliza o conteúdo */
+    }
+
+    .logo {
+        width: 100px; /* Ajuste do tamanho da logo */
+        height: auto;
+        margin-bottom: 10px; /* Adiciona espaçamento entre a logo e o menu */
+    }
+
+    .menu {
+        justify-content: center;
+        width: 100%; /* Garante que o menu ocupe a largura disponível */
+    }
+
+    .menu ul li {
+        font-size: 14px; /* Ajuste do tamanho da fonte no menu para telas menores */
+        margin-right: 10px; /* Menor espaçamento entre os itens do menu */
+    }
 }
