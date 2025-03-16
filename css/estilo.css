@@ -227,94 +227,95 @@ ul,a {
 }
 
 @media (max-width: 720px) {
-     #header {
-         flex-direction: column;
-         align-items: center;
-         text-align: center;
-         margin-bottom: 20px;
-     }
-     .menu {
-         display: flex;
-         justify-content: center;
-         margin: 0;
-     }
-     .menu ul {
-         display: flex;
-         list-style-type: none;
-         padding: 0;
-         margin: 0;
-         margin: 0 0 0 40px;
-         justify-content: center;
-     }
-     .menu ul li {
-        margin: 50px 10px 0 10px;
+    #header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #header img{
+        width: 200px;
+    }
+    .menu {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+    }
+    .menu ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0 auto;
+        max-width: 310px;
+    }
+    .menu ul li {
+        margin: 50px 5px 0 5px;
 
-     }
-     .menu a {
+    }
+    .menu a {
         text-align: center;
         margin-top: 54px;
-     }
-     .logo {
+    }
+    .logo {
         margin: 20px 0 40px 0;
-     } 
-     .section1 {
+    } 
+    .section1 {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         width: 100%;
         margin: 100px 0 0 0;
-     }
-     .section1 img {
+    }
+    .section1 img {
         width: 100%;
         height: auto;
         margin:0 0 0px -10px;
-     }
-     .section1 .descriçao{
+    }
+    .section1 .descriçao{
         margin:0 0 0 25px;
-     }
-     .section1 h2{
+    }
+    .section1 h2{
         margin:  0 0 0 10px;
-     }
-     .section1 span{
+    }
+    .section1 span{
         font-size: 27px;
         margin: 0 0 0 -5px;
-     }
-     .section1 p{
+    }
+    .section1 p{
         margin:0 0 50px 10px;
-     }
-     .section2 {
+    }
+    .section2 {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
         margin: 20px;
-     }
- 
-     .section2 img {
+    }
+    .section2 img {
         width: 280px;
         height: auto;
         margin: 0 0 0 -20px;
-     }
- 
-     .section2 .descriçao {
+    }
+    .section2 .descriçao {
         width: 100%;
         text-align: center;
         margin: 0 ;
-     }
-     .section2 p {
+    }
+    .section2 p {
         width: auto;
         text-align: center;
         margin: 10px 0;
         font-size: 16px;
         text-align: justify;
         margin: 0 0 60px -20px;
-     }
- 
-     .section2 a {
+    }
+    .section2 a {
         text-align: center;
         margin: 0 0 0 -45px;
-     }
-     .section3 {
+    }
+    .section3 {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -322,81 +323,81 @@ ul,a {
         width: 100%;
         height:auto;
         margin: 40px 0 60px ;
-     }
-     .section3 .descriçao {
+    }
+    .section3 .descriçao {
         width: 40%;
         text-align: left;
         margin: 0 20px;
-     }
-     .section3 img {
+    }
+    .section3 img {
         width: 100%;
         height: auto;
         margin-left:-10px;
-     }
-     .section3 h2 {
+    }
+    .section3 h2 {
         font-size: 16px;
         line-height: 100%;
         height: 50px;
         margin: 20px 0 0 0;
-     }
-     .section3 p {
+    }
+    .section3 p {
         width: 100%;
         font-size: 14px;
         line-height:100%;
         margin:-20px 150px 60px 0;
-     }
+    }
      .section3 a {
        padding: 10px 20px 10px 20px;
        margin: 0 0 0 -10px;
-     }
-     #footer {
+    }
+    #footer {
         background-color: white;
         width: 100%;
         text-align: center;
         margin: 0 auto;
-     }
-     #footer img {
+    }
+    #footer img {
         margin: 30px 0 10px 0;
         width: auto;
         height: auto;
-     }
-     #footer .break-footer1{
+    }
+    #footer .break-footer1{
         width: 90%;
         margin: 20px auto;
         border: solid 2px;
         color: #A4A4A4;
-     }
-     #footer .break-footer2 {
+    }
+    #footer .break-footer2 {
         width: 90%;
         margin: 120px 0 0 15px;
         border: solid 2px;
         color: #A4A4A4;
-     }
-     .sobre {
+    }
+    .sobre {
         text-align: center;
         margin: 20px auto;
         width: 90%;
-     }
-     .emissao-CMB {
+    }
+    .emissao-CMB {
         width: 90%;
         margin: 20px auto;
-     }
-     .emissao-CMB p {
+    }
+    .emissao-CMB p {
         font-size: 14px;
         text-align: justify;
         margin: 10px 0;
-     }
-     .politicas {
+    }
+    .politicas {
         display: flex;
         flex-direction: column; 
         justify-content: space-between;
         align-items: center;
         margin: 0;
         width: 100%;
-     }
+    }
      .termos1, .termos2, .termos3 {
         text-align: center;
         margin: 0 10px;
         width: auto;
-     } 
+    } 
 }
