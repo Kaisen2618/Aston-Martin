@@ -251,12 +251,12 @@ ul,a {
         max-width: 310px;
     }
     .menu ul li {
-        margin: 50px 5px 0 5px;
+        margin: 50px 5px 0 0;
 
     }
     .menu a {
         text-align: center;
-        margin-top: 54px;
+        margin-top: 50px;
     }
     .logo {
         margin: 20px 0 40px 0;
